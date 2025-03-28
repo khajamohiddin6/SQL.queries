@@ -57,25 +57,7 @@ USE RetailStore;
   SELECT Orders.order_id, Customers.name, Orders.order_date, Orders.total_amount
   FROM Orders
   JOIN Customers ON Orders.customer_id = Customers.customer_id;
-  ```
-
-## 🔗 How to Share with Cognizant
-1. Push this repository to GitHub using:
-   ```bash
-   git add .
-   git commit -m "Initial commit: Retail Store SQL Database"
-   git push origin main
-   ```
-2. Share the repository link with Cognizant.
-
-## 🛠️ Technologies Used
-- MySQL
-- SQL Queries
-- Git & GitHub for version control
-
-## 📞 Contact
-For any queries, feel free to reach out at **your-email@example.com**.
-
+  ``
 ---
 🚀 **Happy Coding!** 🎯
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
